@@ -13,7 +13,7 @@ stop_event=threading.Event()
 def wait_for_enter():
     input("press \nPress Enter to stop recording...\n")
     stop_event.set()
-#defing spinner
+#defining spinner
 def spinner():
     spinner_chars = '|/-\\'
     idx = 0
